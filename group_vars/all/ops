@@ -1,0 +1,6 @@
+ops_dir: "{{ playbook_dir }}/mgmt"
+ops:
+  repo_dir: "{{ ops_dir }}/depot"
+  key_dir: "{{ ops_dir }}/keys"
+  util_dir:  "{{ ops_dir }}/util"
+  temp_dir:  "{{ ops_dir }}/temp"
